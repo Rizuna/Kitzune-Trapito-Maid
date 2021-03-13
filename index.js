@@ -3797,7 +3797,7 @@ break
 
 				default:
 				if (body.startsWith(`${prefix}${command}`)) {
-  reply(`        ────────────────\nHei *${pushname}* !!!\nPerintah/Command : *${prefix}${command}*\nTidak ada dalam *${prefix}Menu*\n        ────────────────`)
+  reply(`        ────────────────\nHola *${pushname}* !!!\nMando/comando : *${prefix}${command}*\nIncorrecto *${prefix}Menu*\n        ────────────────`)
 				}
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
